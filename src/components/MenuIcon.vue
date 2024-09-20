@@ -2,7 +2,7 @@
     <div class="icon-wrapper">
         <img
             :alt="props.alt"
-            :src="'/src/assets/menu/'+ props.icon +'.svg'"
+            :src="'menu/' + props.icon"
             class="icon"
             :class="[!props.title ? 'icon-md' : '']"
         >

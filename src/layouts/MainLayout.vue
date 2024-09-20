@@ -28,11 +28,11 @@
     </q-page-container>
     <q-footer class="footer fixed-bottom bg-white q-px-sm q-py-sm">
         <div class="flex justify-between">
-            <MenuIcon alt="menu profile" icon="profile" title="Profile" />
-            <MenuIcon alt="menu messages" icon="messages" title="Messages" />
-            <MenuIcon alt="menu home" icon="home" title="" />
-            <MenuIcon alt="menu messenger" icon="messenger" title="Messenger" />
-            <MenuIcon alt="menu activity" icon="activity" title="Activity" />
+            <MenuIcon alt="menu profile" icon="profile.svg" title="Profile" />
+            <MenuIcon alt="menu messages" icon="messages.svg" title="Messages" />
+            <MenuIcon alt="menu home" icon="home.svg" title="" />
+            <MenuIcon alt="menu messenger" icon="messenger.svg" title="Messenger" />
+            <MenuIcon alt="menu activity" icon="activity.svg" title="Activity" />
         </div>
     </q-footer>
   </q-layout>
