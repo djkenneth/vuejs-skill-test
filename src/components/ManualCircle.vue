@@ -66,6 +66,7 @@ defineOptions({
     margin-top: 4rem;
     // background-color: red;
     height: 22rem;
+    position: relative;
     
     .circle-icon {
       position: absolute;
@@ -109,45 +110,113 @@ defineOptions({
       left: 103px;
     }
 
-    @media only screen and (max-width: 375px) {
+    @media screen and (max-width: 425px) {
+
+      position: relative;
+
+      // &::before {
+      //   position: absolute;
+      //   top: 0;
+      //   left: 50%;
+      //   bottom: 0;
+      //   content: "";
+      //   width: 1px;
+      //   height: 100%;
+      //   background-color: red;
+      //   z-index: 1;
+      // }
+
+      // &::after {
+      //   position: absolute;
+      //   top: 50%;
+      //   left: 0;
+      //   content: "";
+      //   width: 100%;
+      //   height: 1px;
+      //   background-color: red;
+      //   z-index: 1;
+      // }
+
       .edeliver-icon {
         top: 0px;
-        left: 49px;
+        left: 70px;
       }
 
       .efood-icon {
         top: 0px;
-        left: 172px;
+        left: 198px;
       }
 
       .eservices-icon {
-        top: 52px;
-        right: 2px;
+        top: 54px;
+        right: 16px;
       }
 
       .epayment-icon {
-        bottom: 53px;
-        right: 4px;
+        bottom: 47px;
+        right: 16px;
       }
 
       .more-icon {
-        bottom: -1px;
-        right: 54px;
+        bottom: -4px;
+        right: 70px;
       }
 
       .emarket-icon {
         top: 53px;
-        left: -3px;
+        left: 16px;
+      }
+
+      .eassist-icon {
+        bottom: 48px;
+        left: 16px;
+      }
+
+      .egov-icon {
+        bottom: -4px;
+        left: 70px;
+      }
+    }
+
+    @media only screen and (max-width: 375px) {
+      .edeliver-icon {
+        top: 2px;
+        left: 51px;
+      }
+
+      .efood-icon {
+        top: 2px;
+        left: 171px;
+      }
+
+      .eservices-icon {
+        top: 54px;
+        right: 0px;
+      }
+
+      .epayment-icon {
+        bottom: 53px;
+        right: 0px;
+      }
+
+      .more-icon {
+        bottom: 2px;
+        right: 49px;
+      }
+
+      .emarket-icon {
+        top: 53px;
+        left: 0px;
       }
 
       .eassist-icon {
         bottom: 53px;
-        left: -1px;
+        left: 0px;
       }
 
       .egov-icon {
-        bottom: -1px;
-        left: 49px;
+        bottom: 2px;
+        left: 50px;
       }
     }
 

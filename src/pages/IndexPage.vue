@@ -1,5 +1,5 @@
 <script setup>
-// import ManualCircle from '../components/ManualCircle.vue'
+import ManualCircle from '../components/ManualCircle.vue'
 import layer2Image from '../assets/layer2.svg';
 import layerImage from '../assets/layer.svg';
 import Circle from '../components/Circle.vue'
@@ -28,7 +28,8 @@ const progress = ref(0.2)
                 <q-icon name="search" />
               </template>
             </q-input>
-            <Circle />
+            <!-- <Circle /> -->
+            <ManualCircle />
             <div class="intro">
               <h3 class="intro-title">911 Call Emergency</h3>
               <p class="intro-description">

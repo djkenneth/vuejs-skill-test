@@ -42,8 +42,6 @@ defineOptions({
           <MenuIcon alt="menu messenger" icon="messenger.svg" title="Messenger" />
           <MenuIcon alt="menu activity" icon="activity.svg" title="Activity" />
         </div>
-
-
       </div>
     </q-footer>
   </q-layout>
