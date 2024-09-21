@@ -56,7 +56,7 @@ const progress = ref(0.2)
   height: 100vh;
 
   .layer2-wrapper {
-    background-image: url("layer2.svg");
+    background-image: url("./layer2.svg");
     background-repeat: no-repeat;
     background-size: 450px;
     width: 100%;
@@ -68,7 +68,7 @@ const progress = ref(0.2)
       position: absolute;
       top: 18px;
       left: 0;
-      background-image: url('layer.svg');
+      background-image: url('./layer.svg');
       background-repeat: no-repeat;
       background-size: inherit;
       background-position-x: center;

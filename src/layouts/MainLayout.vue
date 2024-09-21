@@ -80,7 +80,7 @@ defineOptions({
 
     .menu-layer {
       position: absolute;
-      background-image: url("layer2.svg");
+      background-image: url("./layer2.svg");
       background-repeat: no-repeat;
       background-size: 603px;
       width: 100%;
