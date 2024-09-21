@@ -1,4 +1,5 @@
 <script setup>
+import layer2Image from '../assets/layer2.svg';
 import MenuIcon from '../components/MenuIcon.vue'
 import { ref } from 'vue'
 
@@ -29,7 +30,7 @@ defineOptions({
     </q-page-container>
     <q-footer class="footer fixed-bottom bg-white q-px-sm q-pb-sm">
       <div class="flex justify-between menu-wrapper">
-        <div class="menu-layer" style="display: flex; justify-content: space-between;"></div>
+        <div class="menu-layer" style="display: flex; justify-content: space-between;" :style="{'background-image': `url(${layer2Image})`}"></div>
         <div class="menus">
           <MenuIcon alt="menu profile" icon="profile.svg" title="Profile" />
           <MenuIcon alt="menu messages" icon="messages.svg" title="Messages" />
@@ -80,7 +81,7 @@ defineOptions({
 
     .menu-layer {
       position: absolute;
-      background-image: url("./layer2.svg");
+      // background-image: url("./layer2.svg");
       background-repeat: no-repeat;
       background-size: 603px;
       width: 100%;

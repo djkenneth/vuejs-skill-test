@@ -1,5 +1,7 @@
 <script setup>
 // import ManualCircle from '../components/ManualCircle.vue'
+import layer2Image from '../assets/layer2.svg';
+import layerImage from '../assets/layer.svg';
 import Circle from '../components/Circle.vue'
 import { ref } from 'vue'
 
@@ -14,8 +16,8 @@ const progress = ref(0.2)
 <template>
   <q-page clas="relative-position">
     <div class="main-wrapper">
-      <div class="layer2-wrapper">
-        <div class="layer-wrapper">
+      <div class="layer2-wrapper" :style="{'background-image': `url(${layer2Image})`}">
+        <div class="layer-wrapper" :style="{'background-image': `url(${layerImage})`}">
           <img alt="home" src="~assets/camera.svg" class="home-button-wrapper">
           <div class="content">
             <q-input rounded standout type="search" v-model="search" label="Search">
@@ -56,7 +58,7 @@ const progress = ref(0.2)
   height: 100vh;
 
   .layer2-wrapper {
-    background-image: url("./layer2.svg");
+    // background-image: url("./layer2.svg");
     background-repeat: no-repeat;
     background-size: 450px;
     width: 100%;
@@ -68,7 +70,7 @@ const progress = ref(0.2)
       position: absolute;
       top: 18px;
       left: 0;
-      background-image: url('./layer.svg');
+      // background-image: url('./layer.svg');
       background-repeat: no-repeat;
       background-size: inherit;
       background-position-x: center;
