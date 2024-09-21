@@ -48,7 +48,7 @@ defineOptions({
   </q-layout>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .icons {
   gap: 15px;
 }

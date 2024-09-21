@@ -49,7 +49,7 @@ const progress = ref(0.2)
 </template>
 
 
-<style lang="scss" scoped >
+<style lang="scss" >
 .main-wrapper {
   position: relative;
   width: 100%;
